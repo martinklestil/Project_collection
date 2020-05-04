@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+E:\Developer\Projekte\Projekt Feed baby\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3775481282.index
+3375496314.index
+3800137740.index
+1522925337.index
+4140132424.index
+2054288938.index

@@ -1,0 +1,17 @@
+package at.martinklestil.model;
+
+/**
+ * 
+ * @author Martin Klestil
+ * Data Klasse um das Essen mit seinen Eigenschaften zu deklarieren.
+ *
+ */
+
+public class Food {
+	
+	private int ml;
+	private String foodType;
+	
+	
+
+}

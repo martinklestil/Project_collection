@@ -1,0 +1,18 @@
+package at.martinklestil.view;
+
+import java.awt.BorderLayout;
+
+import javax.swing.JFrame;
+
+public class MainFrame extends JFrame{
+	
+	public MainFrame() {
+		this.setLayout(new BorderLayout());
+
+        this.setTitle("BMI Rechner mit Java");
+        this.setSize(400, 400);
+        this.setVisible(true);
+        this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+	}
+
+}

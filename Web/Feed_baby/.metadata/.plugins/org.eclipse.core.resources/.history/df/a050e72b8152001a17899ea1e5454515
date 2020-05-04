@@ -1,0 +1,19 @@
+package at.martinklestil.controll;
+
+import java.util.ArrayList;
+
+import at.martinklestil.model.Baby;
+
+/**
+ * 
+ * @author Martin Klestil
+ * Klasse für die Buisness Logik
+ *
+ */
+
+public class Auswertung {
+	
+	private Baby myBaby;
+	private ArrayList<Food> foods; 
+
+}

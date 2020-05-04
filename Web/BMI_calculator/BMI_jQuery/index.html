@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>BMI Rechner mit jQuery</title>
+        <link rel="stylesheet" type="text/css" href="./css/index.css" />
+    </head>
+    <body>
+
+        <div class="formular">
+            <div class="bmi-calculator">
+                <h3>Erklärung</h3>
+                <p>Ein kleines Projekt um den Einsatz von jQuery zu zeigen.</p>
+
+            </div>
+            <form class="bmi-calculator">
+                <h3>BMI - Rechner</h3>
+
+                <br />
+                <label for="height">Körpergröße in m:</label>
+                <input type="number" id="height" name="height" step="0.01" min="0.50" max="4" />
+
+                <br />
+                <label for="weight">Gewicht in kg:</label>
+                <input type="number" id="weight" name="weight" step="0.10" min="10" max="400"/>
+
+                <br />
+                <button type="button" id="calculate">BMI berechnen</button>
+            </form>
+            <div class="bmi-calculator">
+                <h3>BMI Berechnung</h3>
+                <p id="bmi"></p>
+
+                <div id="weight-Nan" style="display: none;">Bitte alle Werte eingeben.</div>
+                <div id="weight-normal" style="display: none;">Normalgewicht!</div>
+                <div id="weight-below" style="display: none;">Unter Normalgewicht!</div>
+                <div id="weight-above" style="display: none;">Über Normalgewicht!</div>
+            </div>
+
+
+    </div>
+        <script type="text/javascript" src="./lib/jquery/jquery-3.1.1.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>

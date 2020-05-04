@@ -1,0 +1,5 @@
+package at.martinklestil.model;
+
+public class Baby {
+
+}

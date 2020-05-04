@@ -1,0 +1,14 @@
+
+R
+java:S2589"7Remove this expression which always evaluates to "true"(óÎ†ıÿÿÿÿ
+R
+java:S2589"7Remove this expression which always evaluates to "true"(óÎ†ıÿÿÿÿ
+•
+java:S2159"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(óÎ†ıÿÿÿÿ
+•
+java:S2159"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(óÎ†ıÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(æ§‰Ù
+H
+java:S1481 "-Remove this unused "bmiValue" local variable.(äìšòıÿÿÿÿ
+N
+java:S1481!"3Remove this unused "bmiDescription" local variable.(á¯åÆüÿÿÿÿ

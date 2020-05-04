@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <html lang="en">
+        <meta charset="UTF-8" />
+        <meta name="author" content="Martin Klestil">
+        <title>Baby feed calculator</title>
+        <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    </head>
+    <body>
+        
+        <div class="formular">
+            <div class="baby-calculator">
+                <h3>Explanation</h3>
+                <p>A small project to show if my baby eats enough.</p>
+                <h4>How much should my baby drink?</h4>
+                <p>Daily amount of drinking baby = 1/6 of body weight</p>
+                <img src="./webimages/table.PNG" alt="How much should my baby drink table" />
+    
+            </div>
+            <form class="baby-calculator">
+                <h3>Calculation</h3>
+
+                <br />
+                <h4>Baby</h4>
+                <label for="weightLabel">Baby's weight: </label>
+                <input type="number" id="weight" name="weight " step="0.01" min="0.50" max="10000" placeholder="3000"/> g
+                <div id="aim">
+                    <h4>Drink goal</h4>
+                    <label>1/6 of body weight:</label> <label id="goal"></label>g
+                </div>
+                <br />
+                <h4>Meals</h4>
+                <table id="babyTable">
+                    <thead>
+                        <tr>
+                            <th>Meal</th>
+                            <th>ml</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><label id="drunk">Drunk 1:</label></td>
+                            <td><input type="number" id="meal1" name="meal1" step="0.10" min="0" max="1000" placeholder="150"/>ml</td> 
+                        </tr>
+                        <tr>
+                            <td><label id="drunk">Drunk 2:</label></td>
+                            <td><input type="number" id="meal2" name="meal2" step="0.10" min="0" max="1000" placeholder="150"/>ml</td> 
+                        </tr>
+                        <tr>
+                            <td><label id="drunk">Drunk 3:</label></td>
+                            <td><input type="number" id="meal3" name="meal3" step="0.10" min="0" max="1000" placeholder="150"/>ml</td> 
+                        </tr>
+                        <tr>
+                            <td><label id="drunk">Drunk 4:</label></td>
+                            <td><input type="number" id="meal4" name="meal4" step="0.10" min="0" max="1000" placeholder="150"/>ml</td> 
+                        </tr>
+                        <tr>
+                            <td><label id="drunk">Drunk 5:</label></td>
+                            <td><input type="number" id="meal5" name="meal5" step="0.10" min="0" max="1000" placeholder="150"/>ml</td> 
+                        </tr>
+                        <tr>
+                            <td><label id="drunk">Drunk 6:</label></td>
+                            <td><input type="number" id="meal6" name="meal6" step="0.10" min="0" max="1000" placeholder="150"/>ml</td> 
+                        </tr>
+                        <tr>
+                            <td><label id="drunk">Drunk 7:</label></td>
+                            <td><input type="number" id="meal7" name="meal7" step="0.10" min="0" max="1000" placeholder="150"/>ml</td> 
+                        </tr>
+                        <tr>
+                            <td><label id="drunk">Drunk 8:</label></td>
+                            <td><input type="number" id="meal8" name="meal8" step="0.10" min="0" max="1000" placeholder="150"/>ml</td> 
+                        </tr>
+                    </tbody>
+                </table>
+                <br />
+                
+            </form>
+            <div class="baby-calculator">
+                <h3>Result</h3>
+                <p id="result">Please enter data.</p>
+            </div>
+
+            
+    </div>
+
+        <script type="text/javascript" src="./js/index.js"></script>
+    </body>
+</html>

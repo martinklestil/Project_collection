@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <html lang="en">
+        <meta charset="UTF-8" />
+        <meta name="author" content="Martin Klestil">
+        <title>Baby feed calculator</title>
+        <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    </head>
+    <body>
+        
+        <div class="formular">
+            <div class="baby-calculator">
+                <h3>Explanation</h3>
+                <p>A small project to show if my baby eats enough.</p>
+                <h4>How much should my baby drink?</h4>
+                <p>Daily amount of drinking baby = 1/6 of body weight</p>
+                <img src="./webimages/table.PNG" alt="How much should my baby drink table" />
+    
+            </div>
+            <form class="baby-calculator">
+                <h3>Calculation</h3>
+
+                <br />
+                <h4>Baby</h4>
+                <label for="weightLabel">Baby's weight: </label>
+                <input type="number" id="weight" name="weight " step="1" min="1" max="10000" placeholder="3000"/> g
+                <div id="aim">
+                    <h4>Drink goal</h4>
+                    <label>1/6 of body weight:</label> <label id="goal"></label>g
+                </div>
+                <br />
+                <h4>Meals</h4>
+                <table id="babyTable">
+                    <thead>
+                        <tr>
+                            <th>Meal</th>
+                            <th>ml</th>
+                            <th>add</th>
+                            <th>remove</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><label id="drunk">Drunk:</label></td>
+                            <td><input type="number" class="meal" name="meal" step="1" min="0" max="1000" placeholder="150"/>ml</td> 
+                            <td><button type="button" class="add"><img src="./webimages/plus.png" /></button></td>
+                            <td><button type="button" class="remove"><img src="./webimages/minus.png" /></button></td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+                <br />
+                
+            </form>
+            <div class="baby-calculator">
+                <h3>Result</h3>
+                <p id="result">Please enter data.</p>
+            </div>
+
+            
+    </div>
+        <script type="text/javascript" src="./lib/jquery/jquery-3.1.1.js"></script>
+        <script type="text/javascript" src="./js/index.js"></script>
+    </body>
+</html>

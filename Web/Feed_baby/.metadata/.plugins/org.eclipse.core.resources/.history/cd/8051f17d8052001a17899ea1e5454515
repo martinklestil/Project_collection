@@ -1,0 +1,8 @@
+package at.martinklestil.model;
+
+public class Food {
+	
+	private int ml;
+	private String foodType;
+
+}

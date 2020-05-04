@@ -1,0 +1,12 @@
+package at.martinklestil.controll;
+
+/**
+ * 
+ * @author Martin Klestil
+ * Klasse für die Buisness Logik
+ *
+ */
+
+public class Auswertung {
+
+}
