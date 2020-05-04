@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wissenswerte Fakten</string>
+    <string name="did_you_know">Wusstest du?</string>
+    <string name="ants_strecht_wehn_they_wake_up_in_the_morning">Ameisen strecken sich wenn sie morgens aufwachen.</string>
+    <string name="show_another_fun_fact">ZEIGEN SIE ANDERE FAKTEN</string>
+    <string-array name="facts">
+        <item>Ameisen strecken sich, wenn sie morgens aufwachen.</item>
+        <item>Strauße können schneller laufen als Pferde.</item>
+        <item>Olympische Goldmedaillen bestehen eigentlich hauptsächlich aus Silber.</item>
+        <item>Du bist mit 300 Knochen geboren; Wenn Sie erwachsen sind, haben Sie 206.</item>
+        <item>Es dauert etwa 8 Minuten, bis Licht von der Sonne die Erde erreicht.</item>
+        <item>Einige Bambuspflanzen können an nur einem Tag fast einen Meter wachsen.</item>
+        <item>Der Bundesstaat Florida ist größer als England.</item>
+        <item>Einige Pinguine können 2-3 Meter aus dem Wasser springen.</item>
+        <item>Im Durchschnitt dauert es 66 Tage, bis sich eine neue Gewohnheit gebildet hat.</item>
+        <item>Mammuts gingen immer noch auf der Erde, als die Große Pyramide gebaut wurde.</item>
+    </string-array>
+</resources>

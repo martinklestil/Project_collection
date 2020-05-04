@@ -1,0 +1,18 @@
+<resources>
+<string name="app_name">Fun Facts</string>
+<string name="did_you_know">Did you know?</string>
+<string name="ants_strecht_wehn_they_wake_up_in_the_morning">Ants strecht. Wehn they wake up in the morning.</string>
+<string name="show_another_fun_fact">SHOW ANOTHER FUN FACT</string>
+    <string-array name="facts">
+        <item>Ants stretch when they wake up in the morning.</item>
+        <item>Ostriches can run faster than horses.</item>
+        <item>Olympic gold medals are actually made mostly of silver.</item>
+        <item>You are born with 300 bones; by the time you are an adult you will have 206.</item>
+        <item>It takes about 8 minutes for light from the Sun to reach Earth.</item>
+        <item>Some bamboo plants can grow almost a meter in just one day.</item>
+        <item>The state of Florida is bigger than England.</item>
+        <item>Some penguins can leap 2–3 meters out of the water.</item>
+        <item>On average, it takes 66 days to form a new habit.</item>
+        <item>Mammoths still walked the earth when the Great Pyramid was being built.</item>
+    </string-array>
+</resources>
